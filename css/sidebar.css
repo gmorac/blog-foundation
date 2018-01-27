@@ -1,0 +1,116 @@
+.sidebar {
+	background: #400000;
+	color:  white;
+}
+.sidebar-button {
+	background: #000000;
+}
+.sidebar-button:hover {
+	background: #222222;
+}
+.sidebar-section-title {
+	border-bottom:  1px solid #FFFFFF;
+	margin:  .5em 0;
+}
+.sidebar-title,
+.sidebar-subtitle {
+	text-align: right
+}
+.sidebar-subtitle {
+	margin-bottom: 1em;
+}
+
+/* Menu */
+.accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a::after {
+	color: #FFFFFF;
+	border-color: #FFFFFF transparent transparent;
+}
+.sidebar-menu {}
+.sidebar-item {
+	background: #000000;
+	color: #FFFFFF;
+}
+.sidebar-item:first-child {
+	border-radius: 5px 5px 0 0;
+}
+.sidebar-item:last-child {
+	border-radius: 0 0 5px 5px;
+}
+.sidebar-item-link{
+	border-bottom: 2px solid transparent;
+	color: #FFFFFF;
+}
+.sidebar-item-link:focus{
+	color: #C1C1C1;
+}
+.sidebar-item-link:hover{
+	border-bottom: 2px solid #C1C1C1;
+	color: #C1C1C1;
+}
+
+/* Fav */
+.sidebar-fav {
+	text-align: center;
+}
+.sidebarfav-article{
+	display: inline-block;
+}
+.sidebarfav-figure{
+	margin:  .5em;
+}
+.sidebarfav-image{
+    border:  2px solid transparent;
+    border-radius: 5px;
+	height: auto;
+    transition: all;
+    width: 120px;
+}
+.sidebarfav-image:hover{
+	border:  2px solid black;
+	border-radius: 5px;
+	-webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+}
+
+/* Links */
+.sidebar-other {
+	list-style: none;
+	margin:  0;
+}
+.sidebar-others {
+	background: #000000;
+    color: #FFFFFF;
+    width: 100%;
+}
+.sidebar-others:first-child {
+    border-radius: 5px 5px 0 0;
+}
+.sidebar-others:last-child {
+    border-radius: 0 0 5px 5px;
+}
+.sidebar-others-link {
+    border-bottom: 1px solid transparent;
+    color: #C1C1C1;
+    display: block;
+    padding:  1em;
+}
+.sidebar-others-link:hover {
+    border-bottom: 1px solid #C1C1C1;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+	.content-card-divider h4{
+		font-size: 1.4rem;
+	}
+	.sidebar-others-link {
+		padding: .5em 1em;
+	}
+	.sidebar-section-title {
+		text-align: center;
+	}
+	.sidebar-title,
+	.sidebar-subtitle {
+		text-align: center;
+	}
+}

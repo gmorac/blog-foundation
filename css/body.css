@@ -1,0 +1,32 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Supermercado One', cursive;
+}
+
+h1 {font-size: 2.5rem; margin: 0 .5em;}  
+h2 {font-size: 2.1rem; margin: 0 .5em;} 
+h3 {font-size: 1.9rem; margin: 0 .5em;} 
+h4 {font-size: 1.7rem; margin: 0 .5em;} 
+h5 {font-size: 1.5rem; margin: 0 .5em;} 
+h6 {font-size: 1.3rem; margin: 0 .5em;}
+
+textarea {
+	resize: none;
+}
+
+.orbit-container {
+	height:  350px;
+	max-height:  360px;
+}
+.body {
+	background-image: url('../image/restaurants/5-1.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;  
+  	background-attachment: fixed;
+  	background-size: cover;
+  	background-color: #464646;
+}

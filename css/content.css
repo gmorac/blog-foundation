@@ -1,0 +1,52 @@
+.blog-content {
+	margin:  1.5em 0 0 0;
+}
+.blogpost{}
+.blogpost-item{
+	background: #000000d1;
+}
+.blogpost-item:hover{
+	-webkit-box-shadow: 2px -1px 5px 0px rgba(189,187,189,1);
+-moz-box-shadow: 2px -1px 5px 0px rgba(189,187,189,1);
+box-shadow: 2px -1px 5px 0px rgba(189,187,189,1);
+}
+
+.content-card {
+	border:  1px solid black;	
+	margin-bottom: .5rem;
+}
+.content-card-divider {
+	background: black;
+	color: white;
+}
+.content-card-section {
+	background: #c3c0c361;
+}
+.content-comment {
+	list-style: none;
+	margin: 0;
+}
+.content-comments {
+	color: #C1C1C1;
+	padding:  .5em 1em;
+}
+.content-description {
+	color: white;
+	font-size: .9em;
+	margin-bottom: 0;
+}
+.content-item {
+	padding: .2em 1em;
+	margin-bottom: 1em;
+}
+.orbit-bullets button.is-active {
+	background-color: #000000;
+}
+
+
+
+@media screen and (max-width: 768px) {
+	.tCenter {
+		text-align: center;
+	}
+}
